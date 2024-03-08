@@ -18,7 +18,7 @@ function Html5HlsJS(source, tech) {
   var duration = null;
   var hls = this.hls = new Hls(options.hls);
 
-  Player.tech_.prototype.hls = hls;
+  window.hls = hls;
 
   /**
    * creates an error handler function
