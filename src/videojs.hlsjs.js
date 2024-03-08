@@ -1,7 +1,7 @@
 'use strict';
 
 import Hls from 'hls.js'
-import Player from "video.js/dist/types/player";
+import Player from "video.js";
 
 if (!window.Hls) {
   window.Hls = Hls; // expose hls.js constructor
