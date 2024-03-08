@@ -1,7 +1,6 @@
 'use strict';
 
 import Hls from 'hls.js'
-import Player from "video.js";
 
 if (!window.Hls) {
   window.Hls = Hls; // expose hls.js constructor
@@ -19,7 +18,7 @@ function Html5HlsJS(source, tech) {
   var duration = null;
   var hls = this.hls = new Hls(options.hls);
 
-  Player.prototype.hls = hls;
+  Player.tech_.prototype.hls = hls;
 
   /**
    * creates an error handler function
