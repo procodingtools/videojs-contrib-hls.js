@@ -1,6 +1,6 @@
 'use strict';
 
-var Hls = require('hls.js');
+import Hls from 'hls.js'
 
 if (!window.Hls) {
   window.Hls = Hls; // expose hls.js constructor
