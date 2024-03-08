@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "dependencies": {
-    "hls.js": "github:procodingtools/hls.js"
+    "@tianfeng98/hls.js": "^1.0.2"
   },
   "devDependencies": {
     "webpack": "2.4.1"

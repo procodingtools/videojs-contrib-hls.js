@@ -1,6 +1,6 @@
 'use strict';
 
-import Hls from 'hls.js'
+import Hls from '@tianfeng98/hls.js'
 
 if (!window.Hls) {
   window.Hls = Hls; // expose hls.js constructor
