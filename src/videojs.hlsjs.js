@@ -165,7 +165,6 @@ if (Hls.isSupported()) {
 
     if (html5Tech) {
       html5Tech.registerSourceHandler(HlsSourceHandler, 0);
-      console.info("hls successfully integrated");
     }
   }
   else {
