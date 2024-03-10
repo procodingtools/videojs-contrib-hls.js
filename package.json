@@ -7,7 +7,8 @@
     "example": "examples"
   },
   "dependencies": {
-    "@tianfeng98/hls.js": "^1.0.2"
+    "@tianfeng98/hls.js": "^1.0.2",
+    "hls.js": "^1.5.8-0.canary.10080"
   },
   "devDependencies": {
     "webpack": "2.4.1"
